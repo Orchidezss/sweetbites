@@ -1,0 +1,64 @@
+.nav-mobile {
+  height: calc(100vh - 65px);
+}
+
+.hero-button {
+  background: rgb(16, 44, 87);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(16, 44, 87, 1) 0%,
+    rgba(35, 96, 189, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(16, 44, 87, 1) 0%,
+    rgba(35, 96, 189, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(16, 44, 87, 1) 0%,
+    rgba(35, 96, 189, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#102c57",endColorstr="#2360bd",GradientType=1);
+}
+
+.display {
+  filter: drop-shadow(7px 7px 2px #102c57);
+}
+
+.button {
+  background: rgb(16, 44, 87);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(16, 44, 87, 1) 0%,
+    rgba(35, 96, 189, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(16, 44, 87, 1) 0%,
+    rgba(35, 96, 189, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(16, 44, 87, 1) 0%,
+    rgba(35, 96, 189, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#102c57",endColorstr="#2360bd",GradientType=1);
+}
+
+.bites::after {
+  content: "";
+  position: absolute;
+  width: 110%;
+  height: 50px;
+  bottom: -10px;
+  right: 50%;
+  transform: translateX(50%);
+  z-index: -1;
+  background-color: #eadbc8;
+}
+
+.haven {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black; 
+}
