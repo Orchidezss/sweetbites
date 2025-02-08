@@ -5,7 +5,7 @@ import star from "../assets/star.svg";
 
 const Review = () => {
   return (
-    <div className="mt-[10rem] container">
+    <div className="mt-[10rem] container" id="reviews">
       <h1 className="text-5xl font-bold font-script text-center border-black border-b w-1/2 mx-auto py-1">
         Reviews
       </h1>

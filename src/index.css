@@ -6,3 +6,7 @@ body {
   font-family: Delius;
   background-color: #FEFAF6;
 }
+
+html {
+  scroll-behavior: smooth;
+}

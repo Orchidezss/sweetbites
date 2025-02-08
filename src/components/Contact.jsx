@@ -3,7 +3,7 @@ import contact from '../assets/contact.png'
 
 const Contact = () => {
   return (
-    <div className="container mt-[10rem] ">
+    <div className="container mt-[10rem] " id="contact">
       <h1 className="w-1/2 mx-auto py-1 text-center text-5xl font-script font-bold border-black border-b">
         Contact Us
       </h1>
@@ -43,6 +43,9 @@ const Contact = () => {
                 placeholder="youremail@gmail.com"
                 className="w-full border p-2 focus:border-accent"
               />
+            </div>
+            <div>
+              <textarea placeholder="Your Message" id="" className="w-full border p-2 focus:border-accent"></textarea>
             </div>
             <button className="text-white py-4 px-12 hero-button w-fit mt-2">
               Submit

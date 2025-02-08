@@ -3,7 +3,7 @@ import about from "../assets/about.png";
 
 const About = () => {
   return (
-    <div className="mt-[50px] container flex lg:gap-x-10 lg:flex-row flex-col" id="#about">
+    <div className="mt-[50px] container flex lg:gap-x-10 lg:flex-row flex-col" id="about">
       <img src={about} alt="" className="h-fit"/>
       <div>
         <h1 className="text-5xl font-script font-bold py-3 mb-3 border-b border-black w-1/2">About Us</h1>

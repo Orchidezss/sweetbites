@@ -15,19 +15,19 @@ const Navbar = () => {
           <p className="m-0 font-daysone text-xl">SweetBites Haven</p>
           <ul className="hidden gap-5 lg:flex h-full lg:items-center">
             <li className="hover:border-b border-black">
-              <a href="">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li className="hover:border-b border-black">
-              <a href="">About Us</a>
+              <a href="#about">About Us</a>
             </li>
             <li className="hover:border-b border-black">
-              <a href="">Signature Flavors</a>
+              <a href="#menu">Signature Flavors</a>
             </li>
             <li className="hover:border-b border-black">
-              <a href="">Reviews</a>
+              <a href="#reviews">Reviews</a>
             </li>
             <li className="hover:border-b border-black">
-              <a href="">Contact Us</a>
+              <a href="#contact">Contact Us</a>
             </li>
           </ul>
           <button className="border border-black py-2 px-5 hidden lg:block transition hover:bg-black hover:text-primary">
@@ -45,19 +45,19 @@ const Navbar = () => {
       >
         <ul className="flex flex-col px-[10%] justify-around h-full md:text-xl">
           <li className="border-b border-black pb-1">
-            <a href="">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li className="border-b border-black pb-1">
-            <a href="">About Us</a>
+            <a href="#about">About Us</a>
           </li>
           <li className="border-b border-black pb-1">
-            <a href="">Signature Flavors</a>
+            <a href="#menu">Signature Flavors</a>
           </li>
           <li className="border-b border-black pb-1">
-            <a href="">Reviews</a>
+            <a href="#reviews">Reviews</a>
           </li>
           <li className="border-b border-black pb-1">
-            <a href="">Contact Us</a>
+            <a href="#contact">Contact Us</a>
           </li>
           <li>
             <button className="border border-black py-2 px-5 hover:bg-black hover:text-primary">

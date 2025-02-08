@@ -1,11 +1,12 @@
 import React from "react";
-import hero from "../assets/hero.svg";
+import heroimg from "../assets/hero.svg";
 
 const Hero = () => {
+
   return (
-    <div className="container pt-[65px] md:grid md:grid-cols-2 min-h-screen flex flex-col">
+    <div className="container pt-[65px] md:grid md:grid-cols-2 min-h-screen flex flex-col" id="home">
       <div className="md:h-full md:flex md:items-center">
-        <img src={hero} alt=""/>
+        <img src={heroimg} alt="" className="hero-image"/>
       </div>
       <div className="md:flex md:flex-col md:justify-around md:text-end">
         <h1 className="text-5xl font-script">"Indulge in Sweetness, One Bite at a Time!"</h1>
